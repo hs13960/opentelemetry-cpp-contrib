@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         os: [debian-11.6]
-        nginx-rel: [mainline, stable]
+        nginx-rel: [mainline, stable, legacy]
     steps:
       - name: checkout otel nginx
         uses: actions/checkout@v3
