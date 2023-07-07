@@ -1,4 +1,4 @@
-name: nginx instrumentation CI
+name: nginx instrumentation CI 2023
 
 on:
   push:
