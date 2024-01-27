@@ -15,10 +15,10 @@ on:
 jobs:
   nginx-build-test:
     name: nginx
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-18.04
     strategy:
       matrix:
-        os: [debian-11.6]
+        os: [debian-10.12]
         nginx-rel: [mainline, stable, legacy]
     steps:
       - name: checkout otel nginx
